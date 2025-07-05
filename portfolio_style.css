@@ -1,0 +1,54 @@
+body {
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    background-color: darkseagreen;
+    padding: 20px;
+}
+
+    #contact {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+        #resumeLink {
+            margin: 30px;
+        }
+
+        .resume {
+            width: 100px;
+            height: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+    #title {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    #subtitle {
+        font-size: 24px;
+    }
+
+#about {
+    display: flex;
+    flex-direction: row;
+    margin-right: 700px;
+    margin: 100px;
+    background-color: darkseagreen;
+}
+
+    #mypic {
+        width: 300px;
+        padding: 50px;
+    }
+
+    #introduction {
+        display: flex;
+        align-items: center;
+    }
